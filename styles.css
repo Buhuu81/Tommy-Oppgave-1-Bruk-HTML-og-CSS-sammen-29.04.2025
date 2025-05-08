@@ -18,6 +18,18 @@ header {
     color:rgb(94, 13, 13)
 
 }
+p {
+
+}
+
+.section-title {
+    align-items: center;
+    font-family: "Zen Dots", sans-serif;
+    font-size: 35px; 
+    font-weight: normal;
+    padding: 10px;   
+    color: blue;
+}
 
 .navigationList {
     list-style: none;
