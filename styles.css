@@ -1,19 +1,28 @@
 body{
     text-align: center;
-    background: linear-gradient(to bottom,rgb(93, 27, 131), rgb(86, 27, 121),rgb(59, 1, 92));
-    background-size: 100% 2000px;
+    background: linear-gradient(to bottom,rgb(168, 78, 219), rgb(129, 9, 199),rgb(168, 78, 219));
+    background-size: 500px 1000px;
     background-repeat: repeat; 
 
 }
-header class="headerlogo" {
-    font-size: 50px;
+header {
+    font-size: 100px;
     position: relative;
-    height: 450px;
-    background-image: url('Header_forrest.png'); /
-    background-size: cover; 
+    background-image: url('Bilder/Header_forrest.png');
+    background-size:cover; 
     background-position: center;
 }
 
-li{
+.navigationList {
+    list-style: none;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+}
 
+.section-image {
+    width: 500px; 
+    height: auto; 
+    object-fit: cover; 
+    border-radius: 25px;
 }
