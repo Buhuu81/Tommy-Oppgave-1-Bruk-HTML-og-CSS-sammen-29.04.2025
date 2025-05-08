@@ -25,9 +25,8 @@ header {
     justify-content: space-between; 
     align-items: center;
     font-family: "Zen Dots", sans-serif;
-    font-size: 50px; 
+    font-size: 35px; 
     font-weight: normal;
-    list-style: none; 
     padding: 10px; 
 }
 .navigationList a {
@@ -47,6 +46,50 @@ header {
     object-fit: cover; 
     border-radius: 25px;
 }
+
+.project-list{
+    list-style: none;
+    justify-content: space-between; 
+    align-items: center;
+    font-family: "Zen Dots", sans-serif;
+    font-size: 25px; 
+    font-weight: normal;
+    padding: 10px; 
+    
+}
+.project-list a {
+    text-decoration: none; 
+    color: teal; 
+    transition: 0.3s; 
+    font-weight: 400;
+    font-style: normal;
+    
+}
+.project-list a:hover {
+color: orangered; 
+}
+
+.steam-games {
+    list-style: none;
+    justify-content: space-between; 
+    align-items: center;
+    font-family: "Zen Dots", sans-serif;
+    font-size: 25px; 
+    font-weight: normal;
+    padding: 10px; 
+}
+.steam-games a{
+    text-decoration: none; 
+    color: teal; 
+    transition: 0.3s; 
+    font-weight: 400;
+    font-style: normal; 
+}
+
+.steam-games a:hover{
+    color: orangered;
+}
+
 .footer-links {
     display: flex;
     gap: 20px; 
