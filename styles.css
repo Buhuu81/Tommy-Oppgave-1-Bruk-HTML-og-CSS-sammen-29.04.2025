@@ -24,7 +24,7 @@ header {
 .navigationList {
     list-style: none;
     display: flex;
-    justify-content: center;
+    justify-content: space-between 50px;
     flex-wrap: wrap; /* Ensures flexibility */
     font-family: "Zen Dots", sans-serif;
     font-size: 2vw;
