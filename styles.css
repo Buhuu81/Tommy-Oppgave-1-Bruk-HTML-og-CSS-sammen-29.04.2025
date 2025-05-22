@@ -16,7 +16,7 @@ header {
     background-image: url('Bilder/Header_forrest.png');
     background-size: cover;
     background-position: center;
-    color: rgb(127, 94, 94);
+    color: rgb(106, 64, 169);
     padding: 20px;
 }
 
@@ -33,7 +33,7 @@ header {
 
 .navigationList a {
     text-decoration: none;
-    color: teal;
+    color: rgb(151, 11, 11);
     transition: 0.3s;
     font-weight: 400;
 }
@@ -71,7 +71,7 @@ header {
 .project-list a,
 .steam-games a {
     text-decoration: none;
-    color: teal;
+    color: rgb(0, 0, 0);
     transition: 0.3s;
 }
 
