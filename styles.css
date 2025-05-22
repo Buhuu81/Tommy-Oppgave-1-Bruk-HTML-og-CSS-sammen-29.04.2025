@@ -3,7 +3,7 @@ body {
     text-align: center;
     background: linear-gradient(to bottom, rgb(177, 121, 209), rgb(92, 8, 140), rgb(157, 89, 197));
     background-size: cover;
-    background-repeat: no-repeat;
+    background-repeat: round;
     margin: 0;
     padding: 0;
     font-family: 'Tagesschrift', sans-serif;
@@ -16,7 +16,7 @@ header {
     background-image: url('Bilder/Header_forrest.png');
     background-size: cover;
     background-position: center;
-    color: rgb(94, 13, 13);
+    color: rgb(127, 94, 94);
     padding: 20px;
 }
 
@@ -24,8 +24,8 @@ header {
 .navigationList {
     list-style: none;
     display: flex;
-    justify-content: space-between 50px;
-    flex-wrap: wrap; /* Ensures flexibility */
+    justify-content: space-evenly;
+    flex-wrap: wrap;
     font-family: "Zen Dots", sans-serif;
     font-size: 2vw;
     padding: 10px;
